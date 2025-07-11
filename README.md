@@ -23,7 +23,7 @@
 
 </div>
 
-
+<br />
 
 
 # 2. 프로젝트 기간
@@ -32,7 +32,7 @@
 
 
 
-
+<br />
 
 # 3. 프로젝트 개요
 
@@ -43,7 +43,9 @@
 
 ## ✅ 프로젝트 배경 및 목적
 
-현대 축구에서 선수단 관리는 단순한 영입을 넘어, 핵심 인재의 잔류와 효율적인 이직 관리가 구단의 장기적인 성공에 필수적인 요소가 되었습니다. 이 프로젝트는 선수의 경기 성적, 계약 상황, 개인 특성, 팀 내 역할 등 다양한 데이터를 종합적으로 분석하여 선수의 **구단 이탈 가능성(이직률)**을 예측하는 데 목적이 있습니다. 이를 통해 구단은 잠재적 이탈 선수를 사전에 파악하고, 핵심 선수 잔류를 위한 맞춤형 전략을 수립하며, 보다 안정적이고 효율적인 선수단 운영을 도모할 수 있습니다.
+현대 축구에서 선수단 관리는 단순한 영입을 넘어, 핵심 인재의 잔류와 효율적인 이직 관리가 구단의 장기적인 성공에 필수적인 요소가 되었습니다. 이 프로젝트는 선수의 경기 성적, 계약 상황, 개인 특성, 팀 내 역할 등 다양한 데이터를 종합적으로 분석하여 선수의 **구단 이탈 가능성(이직률)** 을 예측하는 데 목적이 있습니다. 이를 통해 구단은 잠재적 이탈 선수를 사전에 파악하고, 핵심 선수 잔류를 위한 맞춤형 전략을 수립하며, 보다 안정적이고 효율적인 선수단 운영을 도모할 수 있습니다.
+
+
 
 ## 🖐️ 프로젝트 소개
 
@@ -52,12 +54,16 @@
 - 데이터 수집 및 전처리부터 모델링, 성능 평가, 결과 시각화에 이르는 전체 데이터 분석 파이프라인을 체계적으로 구현
 - Streamlit 기반의 사용자 친화적인 인터페이스를 구축, 구단 관계자의 예측 결과 직관적 확인 및 활용 지원
 
+  
+
 ## ❤️ 기대효과
 
 - 선수단 관리 효율성 증대: 잠재적 이탈 선수 조기 식별, 선제적인 관리 및 협상 전략 수립에 기여
 - 핵심 선수 잔류율 향상: 데이터 기반 인사이트를 통해 선수 개개인에게 최적화된 잔류 유인책 마련 지원
 - 장기적인 구단 운영 안정화: 선수단 재편성 리스크 최소화, 안정적인 팀 전력 유지를 위한 의사결정 지원
 - 데이터 기반 인력 관리 역량 강화: 구단 내 데이터 분석 및 예측 모델 활용 역량 증진
+
+  
 
 ## 👤 대상 사용자
 
@@ -66,7 +72,7 @@
 - 인력 관리 및 재무 담당자 등 구단 내부 관계자
 
 
-
+<br />
 
 
 # 4. 기술 스택
@@ -82,9 +88,11 @@
 
 
 
-
+<br />
 
 # 5. 수행결과(분석 및 예측 결과)
+
+<br />
 
 ## ✅ EDA
 
@@ -104,6 +112,10 @@
 |:-------------------------------------:|
 | Heatmap |
 
+
+<br />
+
+
 ## ✅ 딥러닝 모델 아키텍처
 
 
@@ -116,6 +128,9 @@
 - Feature 추출 후에는 3층의 MLP를 거쳐 **이진 분류를 수행**합니다.
 - 입력 데이터는 StandardScaler로 정규화된 수치형 탭형 데이터이며, **채널을 추가한 후 Conv1D로 처리**됩니다.
 
+  <br />
+  
+
 ## ✅ 머신러닝 성능 분석
 
 | <img width="1200" height="1200" alt="Random Forest_confusion_matrix" src="https://github.com/user-attachments/assets/1920a8ef-6fac-4fc5-9ecb-9938c00b14ca" /> | <img width="1800" height="1200" alt="Random Forest_precision_recall_curve" src="https://github.com/user-attachments/assets/ffc276a0-d4c5-49b6-82fc-c0a949219b9d" /> |
@@ -124,19 +139,34 @@
 | <img width="1800" height="1200" alt="Random Forest_roc_curve" src="https://github.com/user-attachments/assets/fd6f9527-8fe6-436c-ab3e-2c8aeccb9614" /> | <img width="1800" height="1200" alt="Random Forest_threshold_f1_recall" src="https://github.com/user-attachments/assets/c413da57-0089-4c0b-bc4b-0126ea6f1259" /> |
 | roc_curve | threshold_f1_recall  |
 
+
+<br />
+
+
 ## ✅ 딥러닝 성능 분석
 
 | <img width="1200" height="1200" alt="DeepLearning_confusion_matrix" src="https://github.com/user-attachments/assets/72fa5fb0-1515-471f-8c1f-7615bee9f00b" /> | <img width="1800" height="1200" alt="DeepLearning_precision_recall_curve" src="https://github.com/user-attachments/assets/cd0a3a3c-9202-4610-a9e1-c4436e43b296" /> |
 |:-----------------------------------:|:-------------------------------------:|
 | confusion_matrix | precision_recall_curve |
-| <img width="1800" height="1200" alt="DeepLearning_roc_curve" src="https://github.com/user-attachments/assets/dc0437ae-a29f-4196-b9ee-2eeb7100063a" /> | <img width="1800" height="1200" alt="DeepLearning_threshold_f1_recall" src="https://github.com/user-attachments/assets/b4868ab9-ddd0-4b91-9fe7-61a2f60e3027" /> |
+| <img width="1800" height="1200" alt="DeepLearning_roc_curve" src="https://github.com/user-attachments/assets/dc0437ae-a29f-4196-b9ee-2eeb7100063a" /> | <img width="1920" height="1440" alt="Image" src="https://github.com/user-attachments/assets/33fae3ba-deb7-4a8f-adcd-a4325f4397b3" /> |
 | roc_curve | threshold_f1_recall  |
+|<img width="1650" height="1200" alt="Image" src="https://github.com/user-attachments/assets/be5f2e5f-e124-41bb-91d2-15bc5bbec7f5" />|  |
+|Epoch-wise Training and Validation Accuracy | |
+
+
+
+<br />
 
 
 # 6. 아쉬운 점
 이번 이적 예측 모델은 경기 내 스탯만을 기반으로 만들어졌기 때문에, 실제 이적에 영향을 주는 다양한 **외부 요인들(구단 사정, 선수 의지 등)**을 반영하지 못함.
 또한, 포지션별로 중요한 지표가 다름에도 불구하고 이를 세분화하지 못하고 동일한 기준으로 예측한 점도 한계
  
+
+
+
+<br />
+
 
 # 7. 한 줄 회고
 
