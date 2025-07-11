@@ -103,7 +103,7 @@
 | Heatmap |
 
 ## ✅ 머신러닝 성능 분석
-| **Random Forest**  |
+
 | <img width="1200" height="1200" alt="Random Forest_confusion_matrix" src="https://github.com/user-attachments/assets/1920a8ef-6fac-4fc5-9ecb-9938c00b14ca" /> | <img width="1800" height="1200" alt="Random Forest_precision_recall_curve" src="https://github.com/user-attachments/assets/ffc276a0-d4c5-49b6-82fc-c0a949219b9d" /> |
 |:-----------------------------------:|:-------------------------------------:|
 | confusion_matrix | precision_recall_curve |
@@ -111,7 +111,7 @@
 | roc_curve | threshold_f1_recall  |
 
 ## ✅ 딥러닝 성능 분석
-| **DeepLearning**  |
+
 | <img width="1200" height="1200" alt="DeepLearning_confusion_matrix" src="https://github.com/user-attachments/assets/72fa5fb0-1515-471f-8c1f-7615bee9f00b" /> | <img width="1800" height="1200" alt="DeepLearning_precision_recall_curve" src="https://github.com/user-attachments/assets/cd0a3a3c-9202-4610-a9e1-c4436e43b296" /> |
 |:-----------------------------------:|:-------------------------------------:|
 | confusion_matrix | precision_recall_curve |
@@ -119,9 +119,12 @@
 | roc_curve | threshold_f1_recall  |
 
 
+# 6. 아쉬운 점
+이번 이적 예측 모델은 경기 내 스탯만을 기반으로 만들어졌기 때문에, 실제 이적에 영향을 주는 다양한 **외부 요인들(구단 사정, 선수 의지 등)**을 반영하지 못함.
+또한, 포지션별로 중요한 지표가 다름에도 불구하고 이를 세분화하지 못하고 동일한 기준으로 예측한 점도 한계
  
 
-# 6. 한 줄 회고
+# 7. 한 줄 회고
 
 <p align="center" width="100%">
 
@@ -133,7 +136,7 @@
 
 |정민철|한승희|
 |----|---|
-|데이터 분석부터 모델 선정,학습 및 평가까지 서로서로 맡은 부분에 대해서 열심히 해준 팀원들 너무 고생하셨습니다.|한승희님의 회고|
+|데이터 분석부터 모델 선정,학습 및 평가까지 해보면서 배워갈 수 있었고 서로서로 맡은 부분에 대해서 열심히 해준 팀원들 너무 고생하셨습니다.|한승희님의 회고|
 
 </p>
 
