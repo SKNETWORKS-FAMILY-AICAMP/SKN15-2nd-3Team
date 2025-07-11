@@ -1,22 +1,41 @@
 # SKN15-2nd-3Team
-# 이적하지말아조 - 축구선수 이적률 예측 프로젝트 ⚽
 
----
 
 # 1. 팀 소개
 
-- 팀명: 이적하지말아조
-- 팀원: 박진우, 권주연, 서혜선, 정민철, 한승희
 
----
+<p align="center">
+  <img src="./images/team_image_ex.png" alt="이적하지말아조 팀 이미지" width="300"/>
+</p>
+
+
+<div align="center">
+
+## 이적하지말아조
+
+
+
+| 박진우 | 권주연 | 서혜선 | 정민철 | 한승희 |
+|:---:|:---:|:---:|:---:|:---:|
+| [@mathplanet](https://github.com/mathplanet) | [@juyeonkwon](https://github.com/juyeonkwon) | [@hyeseon](https://github.com/hyeseon7135) | [@jeong-mincheol](https://github.com/jeong-mincheol) | [@seunghee-han](https://github.com/seunghee-han) |
+
+
+
+</div>
+
+
+
 
 # 2. 프로젝트 기간
 
-- 2025년 7월 10일 ~ 2025년 7월 11일
+- 2025.07.10 ~ 2025.07.11 (총 2일)
 
----
+
+
+
 
 # 3. 프로젝트 개요
+
 
 ## 📕 프로젝트명
 
@@ -44,35 +63,46 @@
 
 - 축구선수 스카우팅 및 이적 전략을 수립하는 관계자
 
----
+
+
+
+
 
 # 4. 기술 스택
 
-- **언어 및 라이브러리**: Python, Pandas, NumPy, scikit-learn, imbalanced-learn, matplotlib, seaborn
-- **웹앱 개발**: Streamlit
-- **버전 관리**: GitHub
-- **기타 도구**: Google Colab, VSCode
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+<img src="https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
 
----
 
-# 5. 수행결과 (분석 및 예측 결과)
 
-- 데이터 불균형 문제를 SMOTE로 해결하여 예측 성능 개선
-- Random Forest 모델을 활용하여 약 83%의 정확도 달성
-- 주요 Feature로는 `출전 경기 수`, `경과 시간`, `득점`, `도움`, `패스 정확도`, `선수 나이` 등이 확인됨
-- SHAP을 통해 모델의 예측 근거를 시각적으로 해석
 
----
+
+
+
+# 5. 수행결과(분석 및 예측 결과)
+
+
+
+
+
+ 
 
 # 6. 한 줄 회고
 
-> 박진우 :
-> 권주연 :
-> 서혜선 :
-> 정민철 :
-> 한승희 :
+<p align="center" width="100%">
 
----
+|박진우|권주연|서혜선|
+|----|---|---|
+|박진우님의 회고|권주연님의 회고|서혜선님의 회고|
 
+
+
+|정민철|한승희|
+|----|---|
+|정민철님의 회고|한승희님의 회고|
+
+</p>
 
 
