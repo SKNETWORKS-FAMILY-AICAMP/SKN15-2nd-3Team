@@ -104,6 +104,18 @@
 |:-------------------------------------:|
 | Heatmap |
 
+## ✅ 딥러닝 모델 아키텍처
+
+
+| <img width="2937" height="1407" alt="Image" src="https://github.com/user-attachments/assets/06c5f991-a91c-4d90-900b-5798c8898557" /> |
+|:------------------------------------------:|
+| Residual CNN + MLP 구조 |
+
+- 본 프로젝트의 딥러닝 모델은 1D Convolution 기반의 **Residual Block** 구조와 Fully Connected **MLP**를 결합하여 설계되었습니다.
+- Conv1D 기반의 잔차 연결(Residual Connection)을 통해 **특성 손실을 최소화**하고, **계층 간 깊이를 확보**하며 학습 안정성을 확보했습니다.
+- Feature 추출 후에는 3층의 MLP를 거쳐 **이진 분류를 수행**합니다.
+- 입력 데이터는 StandardScaler로 정규화된 수치형 탭형 데이터이며, **채널을 추가한 후 Conv1D로 처리**됩니다.
+
 ## ✅ 머신러닝 성능 분석
 
 | <img width="1200" height="1200" alt="Random Forest_confusion_matrix" src="https://github.com/user-attachments/assets/1920a8ef-6fac-4fc5-9ecb-9938c00b14ca" /> | <img width="1800" height="1200" alt="Random Forest_precision_recall_curve" src="https://github.com/user-attachments/assets/ffc276a0-d4c5-49b6-82fc-c0a949219b9d" /> |
@@ -132,7 +144,7 @@
 
 |박진우|권주연|서혜선|
 |----|---|---|
-|박진우님의 회고|권주연님의 회고|아직 머신러닝과 딥러닝을 잘 모르는 상태여서 어떻게 할 수 있을까 걱정이 많았는데 다들 도와주시고 모르는 부분들은 설명도 잘 해주셔서 몰랐던 부분 등을 알게 되어 뜻깊은 시간이였습니다. 부족한 저를 같이 이끌어 가느라 고생하셨을텐데 수고 많으셨습니다. 감사합니다.|
+|박진우님의 회고|모델링과 시각화를 직접 맡으며 시행착오를 반복했고, 그 과정에서 데이터 균형화부터 임계값 조정, 성능 해석까지 전반적인 흐름의 중요성을 실감했다. 맡은 파트에 최선을 다해준 우리 팀원 최고입니다❤️|아직 머신러닝과 딥러닝을 잘 모르는 상태여서 어떻게 할 수 있을까 걱정이 많았는데 다들 도와주시고 모르는 부분들은 설명도 잘 해주셔서 몰랐던 부분 등을 알게 되어 뜻깊은 시간이였습니다. 부족한 저를 같이 이끌어 가느라 고생하셨을텐데 수고 많으셨습니다. 감사합니다.|
 
 
 
