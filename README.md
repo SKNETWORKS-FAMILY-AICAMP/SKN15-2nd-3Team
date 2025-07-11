@@ -119,7 +119,7 @@
 ## ✅ 딥러닝 모델 아키텍처
 
 
-| <img width="2937" height="1407" alt="Image" src="https://github.com/user-attachments/assets/06c5f991-a91c-4d90-900b-5798c8898557" /> |
+|<img width="2937" height="2697" alt="Image" src="https://github.com/user-attachments/assets/79d61ce6-80b5-496e-8b81-f718d14a88fc" /> |
 |:------------------------------------------:|
 | Residual CNN + MLP 구조 |
 
