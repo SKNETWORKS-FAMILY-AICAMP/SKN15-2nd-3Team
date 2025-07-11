@@ -119,10 +119,9 @@
 ## ✅ 딥러닝 모델 아키텍처
 
 
-|<img width="2937" height="2697" alt="Image" src="https://github.com/user-attachments/assets/79d61ce6-80b5-496e-8b81-f718d14a88fc" /> |
-|:------------------------------------------:|
-| Residual CNN + MLP 구조 |
-
+<img width="2937" height="2697" alt="Image" src="https://github.com/user-attachments/assets/da9fa2bf-b833-45cc-94ad-a3cd13056bce" />
+  <br />
+  
 - 1D Convolution 기반의 **Residual Block** 구조와 Fully Connected **MLP**를 결합하여 설계
 - Conv1D 기반의 잔차 연결(Residual Connection)을 통해 **특성 손실을 최소화** 및 **계층 간 깊이를 확보**하며 학습 안정성을 확보
 - Feature 추출 후에는 3층의 MLP를 거쳐 **이진 분류를 수행**
