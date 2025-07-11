@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img src="./images/team_image_ex.png" alt="이적하지말아조 팀 이미지" width="300"/>
+  <img width="225" height="225" alt="9k" src="https://github.com/user-attachments/assets/96d63267-a1ac-4f45-9dbc-7c7f4f91c0b6" />
 </p>
 
 
