@@ -150,12 +150,13 @@
 |:-----------------------------------:|:-------------------------------------:|
 | confusion_matrix | precision_recall_curve |
 | <img width="1800" height="1200" alt="DeepLearning_roc_curve" src="https://github.com/user-attachments/assets/dc0437ae-a29f-4196-b9ee-2eeb7100063a" /> | <img width="1920" height="1440" alt="Image" src="https://github.com/user-attachments/assets/33fae3ba-deb7-4a8f-adcd-a4325f4397b3" /> |
-
 | roc_curve | threshold_f1_recall  |
-
 |<img width="1650" height="1200" alt="Image" src="https://github.com/user-attachments/assets/be5f2e5f-e124-41bb-91d2-15bc5bbec7f5" />| <img width="579" height="146" alt="Image" src="https://github.com/user-attachments/assets/e870ade0-3ee3-4e1e-b8e3-c96cf1de218d" /> |
-
 |Epoch-wise Training and Validation Accuracy |result |
+
+
+<br />
+
 
 
 <br />
