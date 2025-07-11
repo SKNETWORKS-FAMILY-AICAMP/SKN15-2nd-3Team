@@ -17,7 +17,7 @@
 
 | 박진우 | 권주연 | 서혜선 | 정민철 | 한승희 |
 |:---:|:---:|:---:|:---:|:---:|
-| [@](https://github.com/) | [@juyeonkwon](https://github.com/juyeonkwon) | [@hyeseon](https://github.com/hyeseon7135) | [@jeong-mincheol](https://github.com/jeong-mincheol) | [@seunghee-han](https://github.com/seunghee-han) |
+| [@pjw876](https://github.com/pjw876) | [@juyeonkwon](https://github.com/juyeonkwon) | [@hyeseon](https://github.com/hyeseon7135) | [@jeong-mincheol](https://github.com/jeong-mincheol) | [@seunghee-han](https://github.com/seunghee-han) |
 
 
 
@@ -84,8 +84,39 @@
 
 # 5. 수행결과(분석 및 예측 결과)
 
+## ✅ EDA
 
+| <img width="1920" height="1440" alt="타겟분포도" src="https://github.com/user-attachments/assets/6d12c86e-2dc6-40f2-8541-9bb816dfcf6f" /> |
+|:-------------------------------------:|
+| Target Distribution |
 
+| <img width="5400" height="4500" alt="히스토그램" src="https://github.com/user-attachments/assets/334e6010-a3fa-438f-a206-47c4b817e4ec" /> |
+|:-------------------------------------:|
+| Histogram |
+
+| <img width="2400" height="6300" alt="박스플롯" src="https://github.com/user-attachments/assets/bc1744c1-1824-4de0-92f6-ee6a9b2055ad" /> |
+|:-------------------------------------:|
+| BoxPlot |
+
+| <img width="6000" height="4500" alt="히트맵" src="https://github.com/user-attachments/assets/f0bd4209-9808-46e8-8a9a-02266f357305" /> |
+|:-------------------------------------:|
+| Heatmap |
+
+## ✅ 머신러닝 성능 분석
+| **Random Forest**  |
+| <img width="1200" height="1200" alt="Random Forest_confusion_matrix" src="https://github.com/user-attachments/assets/1920a8ef-6fac-4fc5-9ecb-9938c00b14ca" /> | <img width="1800" height="1200" alt="Random Forest_precision_recall_curve" src="https://github.com/user-attachments/assets/ffc276a0-d4c5-49b6-82fc-c0a949219b9d" /> |
+|:-----------------------------------:|:-------------------------------------:|
+| confusion_matrix | precision_recall_curve |
+| <img width="1800" height="1200" alt="Random Forest_roc_curve" src="https://github.com/user-attachments/assets/fd6f9527-8fe6-436c-ab3e-2c8aeccb9614" /> | <img width="1800" height="1200" alt="Random Forest_threshold_f1_recall" src="https://github.com/user-attachments/assets/c413da57-0089-4c0b-bc4b-0126ea6f1259" /> |
+| roc_curve | threshold_f1_recall  |
+
+## ✅ 딥러닝 성능 분석
+| **DeepLearning**  |
+| <img width="1200" height="1200" alt="DeepLearning_confusion_matrix" src="https://github.com/user-attachments/assets/72fa5fb0-1515-471f-8c1f-7615bee9f00b" /> | <img width="1800" height="1200" alt="DeepLearning_precision_recall_curve" src="https://github.com/user-attachments/assets/cd0a3a3c-9202-4610-a9e1-c4436e43b296" /> |
+|:-----------------------------------:|:-------------------------------------:|
+| confusion_matrix | precision_recall_curve |
+| <img width="1800" height="1200" alt="DeepLearning_roc_curve" src="https://github.com/user-attachments/assets/dc0437ae-a29f-4196-b9ee-2eeb7100063a" /> | <img width="1800" height="1200" alt="DeepLearning_threshold_f1_recall" src="https://github.com/user-attachments/assets/b4868ab9-ddd0-4b91-9fe7-61a2f60e3027" /> |
+| roc_curve | threshold_f1_recall  |
 
 
  
@@ -102,7 +133,7 @@
 
 |정민철|한승희|
 |----|---|
-|정민철님의 회고|한승희님의 회고|
+|데이터 분석부터 모델 선정,학습 및 평가까지 서로서로 맡은 부분에 대해서 열심히 해준 팀원들 너무 고생하셨습니다.|한승희님의 회고|
 
 </p>
 
